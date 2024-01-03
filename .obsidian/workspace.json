@@ -6,6 +6,7 @@
       {
         "id": "707f75a4b35a8442",
         "type": "tabs",
+        "dimension": 70.58823529411765,
         "children": [
           {
             "id": "0ab53a61fc095b69",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/dingo.foo.md",
+                "file": "blog/Deploying Kubernetes - Part 2 - Deploying Core Networking.md",
                 "mode": "source",
                 "source": false
               }
@@ -24,6 +25,7 @@
       {
         "id": "081e939e6dd5a3fe",
         "type": "tabs",
+        "dimension": 29.411764705882355,
         "children": [
           {
             "id": "c9c2a3c30df6b2fb",
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/dingo.foo.md",
+                "file": "blog/Deploying Kubernetes - Part 2 - Deploying Core Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/dingo.foo.md",
+                "file": "blog/Deploying Kubernetes - Part 2 - Deploying Core Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/dingo.foo.md"
+                "file": "blog/Deploying Kubernetes - Part 2 - Deploying Core Networking.md"
               }
             }
           }
@@ -160,10 +162,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa9a977299bcab7e",
+  "active": "0ab53a61fc095b69",
   "lastOpenFiles": [
+    "blog/dingo.foo.md",
+    "blog/Deploying Kubernetes - Part 2 - Deploying Core Networking.md",
     "blog",
-    "Welcome.md",
-    "blog/dingo.foo.md"
+    "Welcome.md"
   ]
 }
