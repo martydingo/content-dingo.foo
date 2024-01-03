@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/Deploying Kubernetes - Part 2 - Deploying Core Networking.md",
+                "file": "blog/dingo.foo.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/Deploying Kubernetes - Part 2 - Deploying Core Networking.md",
+                "file": "blog/dingo.foo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/Deploying Kubernetes - Part 2 - Deploying Core Networking.md",
+                "file": "blog/dingo.foo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/Deploying Kubernetes - Part 2 - Deploying Core Networking.md"
+                "file": "blog/dingo.foo.md"
               }
             }
           }
@@ -164,8 +164,9 @@
   },
   "active": "0ab53a61fc095b69",
   "lastOpenFiles": [
-    "blog/dingo.foo.md",
     "blog/Deploying Kubernetes - Part 2 - Deploying Core Networking.md",
+    "config.ts",
+    "blog/dingo.foo.md",
     "blog",
     "Welcome.md"
   ]
