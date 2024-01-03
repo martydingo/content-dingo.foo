@@ -16,6 +16,7 @@ tags:
 description: The second part of the *'Deploying Kubernetes'* series. This instructional will cover the deployment of our core networking, that our back-end, front-end and storage area networks will run on.
 date: 2022-09-23
 preview_image: ./images/deploying-core-networking-preview.jpg
+series: Deploying Kubernetes
 ---
 !['test'](./images/deploying-core-networking-preview.jpg)
 
