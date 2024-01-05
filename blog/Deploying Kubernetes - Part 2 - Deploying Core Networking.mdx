@@ -19,7 +19,7 @@ preview_image: ./images/deploying-core-networking-preview.jpg
 series: Deploying Kubernetes
 ---
 
-import MermaidDiagram from '@/components/MermaidDiagram.tsx';
+import MermaidDiagram from '@/components/MermaidDiagram/MermaidDiagram.astro';
 
 The second part of the *'Deploying Kubernetes'* series. This instructional will cover the deployment of our core networking, that our back-end, front-end and storage area networks will run on.
 
@@ -34,10 +34,8 @@ We'll be creating two routers for this, a router for our back-end networks, and 
 Our network will look a little like so:
 
 
-`%%{init:{"flowchart":{"defaultRenderer":"dagre"}}}%%`
 
-<MermaidDiagram diagramCode={`
-
+<MermaidDiagram flowchartRenderer="dagre" diagramCode={`
 flowchart
 direction RL
 
