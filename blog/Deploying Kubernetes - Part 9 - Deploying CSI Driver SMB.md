@@ -1,6 +1,11 @@
 ---
 date: 2022-08-31
+draft: true
 title: Deploying CSI Driver SMB
+author: 
+  name: Martin George
+  avatar: "https://secure.gravatar.com/avatar/b107d40c1c78108e3108a3000699f45dfd29969a236da8a29d8c1206f72d2ce8"
+
 description: The tenth part of a multi-part series on deploying Kubernetes
 tags: ["kubernetes", "k8s", "deployment", "csi", "smb"]
 series: "Deploying Kubernetes"

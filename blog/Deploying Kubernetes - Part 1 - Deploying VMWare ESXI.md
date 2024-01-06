@@ -1,11 +1,16 @@
 ---
 date: 2022-08-18
+draft: false
 title: Deploying VMWare ESXI
+author: 
+  name: Martin George
+  avatar: "https://secure.gravatar.com/avatar/b107d40c1c78108e3108a3000699f45dfd29969a236da8a29d8c1206f72d2ce8"
+
 description: The first part of a multi-part series on deploying Kubernetes
 tags: ["kubernetes", "k8s", "deployment", "vmware", "esxi"]
 series: "Deploying Kubernetes"
+preview_image: "./images/deploying-vmware-esxi-preview.png"
 ---
-# Deploying Kubernetes - Part 1 - Deploying VMWare ESXI
 
 ## Introduction
 
@@ -35,47 +40,47 @@ This instructional will cover the deployment of VMWare ESXI, the virtualisation 
 ## Installation of VMWare ESXI
 
 1. We'll begin by starting from the ESXI installer boot splash page. 
-    ![[deploying-vmware-esxi-step1.png]]
+    ![deploying-vmware-esxi-step1](./images/deploying-vmware-esxi-step1.png)
 
 2. Select a disk. 
    I recommend selecting the first disk, as it will be much easier to remember for later steps.
-   ![[deploying-vmware-esxi-step2.png]]
+   ![deploying-vmware-esxi-step2](./images/deploying-vmware-esxi-step2.png)
  3. Select a keyboard layout
-      ![[deploying-vmware-esxi-step3.png]]
+      ![deploying-vmware-esxi-step3](./images/deploying-vmware-esxi-step3.png)
 
 4. Enter a password for the `root` user
-   ![[deploying-vmware-esxi-step4.png]]
+   ![deploying-vmware-esxi-step4](./images/deploying-vmware-esxi-step4.png)
 5. ESXI will now install. 
-   ![[deploying-vmware-esxi-step5.png]]
+   ![deploying-vmware-esxi-step5](./images/deploying-vmware-esxi-step5.png)
 6. When the installation completes, you'll see a window asking you to remove the install media & reboot the server. 
-   ![[deploying-vmware-esxi-step6-1.png]]
+   ![deploying-vmware-esxi-step6-1](./images/deploying-vmware-esxi-step6-1.png)
    Ignore the warning about the removal of install media, and hit enter. You will then see a message indicating the server will reboot.
-   ![[deploying-vmware-esxi-step6-2.png]] 
+   ![deploying-vmware-esxi-step6-2](./images/deploying-vmware-esxi-step6-2.png) 
 7. On reboot, the system will initalize, this may take some time. Eventually, the system will rest at the following screen.
-   ![[deploying-vmware-esxi-step7.png]]
+   ![deploying-vmware-esxi-step7](./images/deploying-vmware-esxi-step7.png)
    **NOTE:** The management FQDN's have been redacted above. 
 
 8. Before we complete the installation and quit the KVM, we'll enable SSH, as the web user interface is most likely already locked from various bruteforcing attempts from various internet explorers. We'll also need SSH enabled for the optional steps that follow later on in this article. 
 	Press F2, then login. 
 	
-	![[deploying-vmware-esxi-step8-1.png]]
+	![deploying-vmware-esxi-step8-1](./images/deploying-vmware-esxi-step8-1.png)
 	
 	Select troubleshooting options, and press enter.
 	
-	![[deploying-vmware-esxi-step8-2.png]]
+	![deploying-vmware-esxi-step8-2](./images/deploying-vmware-esxi-step8-2.png)
 	
 	Then highlight Enable SSH, and press enter.
 	
-	![[deploying-vmware-esxi-step8-3.png]]
+	![deploying-vmware-esxi-step8-3](./images/deploying-vmware-esxi-step8-3.png)
 	
 	It should flip to 'SSH is Enabled'
 	
-![[deploying-vmware-esxi-step8-4.png]]
+![deploying-vmware-esxi-step8-4](./images/deploying-vmware-esxi-step8-4.png)
 
 9. Login via SSH onto your ESXI host, as root. 
-   ![[deploying-vmware-esxi-step9.png]]
+   ![deploying-vmware-esxi-step9](./images/deploying-vmware-esxi-step9.png)
 10. We can unlock the ESXI web GUI by running `pam_tally2 --reset` 
-    ![[deploying-vmware-esxi-step10.png]]
+    ![deploying-vmware-esxi-step10](./images/deploying-vmware-esxi-step10.png)
 ## (Optional) Add an extra physical disk to an existing ESXI datastore
 
 We'll reconfigure the ESXI datastore *datastore1* by adding an additional drive to the datastore.
