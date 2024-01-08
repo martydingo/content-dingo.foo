@@ -1,6 +1,6 @@
 ---
 date: 2022-08-22
-draft: true
+draft: false
 title: Deploying MetalLB
 author: 
   name: Martin George
@@ -10,6 +10,10 @@ description: The fifth part of a multi-part series on deploying Kubernetes
 tags: ["kubernetes", "k8s", "deployment", "metallb", "loadbalancer"]
 series: "Deploying Kubernetes"
 ---
+
+import InlineSnippet  from '@/components/BlogPost/InlineSnippet/InlineSnippet.astro'
+import InlineCode from '@/components/BlogPost/InlineCode/InlineCode.astro'
+
 Welcome to the fifth part of our series on deploying Kubernetes! In this installment, we will be covering how to deploy MetalLB, a load-balancer implementation for bare metal Kubernetes clusters.
 
 ## What is MetalLB?
@@ -18,10 +22,10 @@ Welcome to the fifth part of our series on deploying Kubernetes! In this install
 
 ## Setting up MetalLB
 
-To set up MetalLB, you will need to first create a helm configuration file called `helm-metallb-values.yaml`. Copy the following configuration into this file:
-      
-```yaml
+To set up MetalLB, you will need to first create a helm configuration file called 
+`helm-metallb-values.yaml`. Copy the following configuration into this file:
 
+```yaml
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
@@ -255,15 +259,15 @@ speaker:
 crds:
   enabled: true
 ```
- 
 
 Next, create a namespace for MetalLB to use:
 
 `kubectl create ns metallb`
 
-Then, add the MetalLB Helm repository and install MetalLB using Helm:
+Then, add the MetalLB Helm repository and install MetalLB using Helm: 
 
-`helm rDeploying MetalLBepo add metallb https://metallb.github.io/metallb helm install -n metallb metallb metallb/metallb -f helm-metallb-values.yaml`
+`helm repo add metallb https://metallb.github.io/metallb
+helm install -n metallb metallb metallb/metallb -f helm-metallb-values.yaml`
 
 That's it! You should now have MetalLB up and running in your Kubernetes cluster.
 
