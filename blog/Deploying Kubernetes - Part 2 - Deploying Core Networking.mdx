@@ -1,5 +1,10 @@
 ---
+draft: false
 title: Deploying Core Networking
+author: 
+  name: Martin George
+  avatar: "https://secure.gravatar.com/avatar/b107d40c1c78108e3108a3000699f45dfd29969a236da8a29d8c1206f72d2ce8"
+
 tags:
   - deploying
   - kubernetes
@@ -14,11 +19,15 @@ tags:
   - frontend
   - backend
 description: The second part of the *'Deploying Kubernetes'* series. This instructional will cover the deployment of our core networking, that our back-end, front-end and storage area networks will run on.
-date: 2022-09-23
-preview_image: ./images/deploying-core-networking-preview.jpg
+date: 2022-08-19
+preview_image: ./images/deploying-core-networking-preview.jpeg
 series: Deploying Kubernetes
 ---
+import MermaidDiagram from '@/components/MermaidDiagram/MermaidDiagram.astro';
+
+
 The second part of the *'Deploying Kubernetes'* series. This instructional will cover the deployment of our core networking, that our back-end, front-end and storage area networks will run on.
+
 ## Introduction
 
 Following on from [[Deploying Kubernetes - Part 1 - Deploying VMWare ESXI]], we'll now implement our core network on top of VMWare ESXI, as so we can create our own internal networks that our hosts can communicate on.
@@ -29,9 +38,9 @@ We'll be creating two routers for this, a router for our back-end networks, and 
 
 Our network will look a little like so:
 
-```mermaid
-%%{init:{"flowchart":{"defaultRenderer":"dagre"}}}%%
 
+
+<MermaidDiagram flowchartRenderer="elk" diagramCode={`
 flowchart
 direction RL
 
@@ -148,7 +157,7 @@ end
 172.16.4.1 <-.-> 172.16.4.2 
 172.16.5.1 <-.-> 172.16.5.2 
 172.16.6.1 <-.-> 172.16.6.2
-```
+`} />
 
 ## IP Schema
 
