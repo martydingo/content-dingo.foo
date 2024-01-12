@@ -30,9 +30,10 @@ const portfolioCollection = defineCollection({
     description: z.string().nullable(),
     // tags: z.array(z.string()).nullable(),
     preview_image: image().optional(),
+    repo: z.string()
     // series: z.string().optional(),
   }),
-  
+
 })
 // 3. Export a single `collections` object to register your collection(s)
 //    This key should match your collection directory name in "src/content"
