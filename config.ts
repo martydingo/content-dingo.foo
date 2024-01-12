@@ -18,7 +18,7 @@ const blogCollection = defineCollection({
   }),
 });
 
-const portfolioCollection = defineCollection({
+const projectsCollection = defineCollection({
   schema: ({ image }: any) => z.object({
     draft: z.boolean(),
     title: z.string(),
@@ -41,5 +41,5 @@ const portfolioCollection = defineCollection({
 //    This key should match your collection directory name in "src/content"
 export const collections = {
   'blog': blogCollection,
-  'portfolio': portfolioCollection
+  'projects': projectsCollection
 };
