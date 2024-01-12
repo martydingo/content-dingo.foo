@@ -1,5 +1,5 @@
 ---
-title: rosSpot - RouterOS Hotspot Billing & Voucher Management Platform
+title: rosSpot
 description: RouterOS Hotspot Billing & Voucher Management Platform, forked from the original 'phpmixbill' project by @ibnux and translated to English.
 draft: false
 repo: https://github.com/martydingo/rosSpot
