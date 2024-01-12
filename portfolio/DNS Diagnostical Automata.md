@@ -16,7 +16,7 @@ toolset, executes a test as specified by the variable `dnsdiag_operation`, again
 defined by the variable `dnsdiag_qname` with an rdtype defined by the variable `dnsdiag_rdtype`,
 optionally with a specific server defined by the variable `dnsdiag_resolver`, otherwise it will
 use the first configured resolver within `/etc/resolv.conf`. Finally, the automation
-then destroys the instances created previously after dumping the results to stdout. 
+then destroys the instances created previously[[Enviroplusd]] after dumping the results to stdout. 
 
 There is plans to integrate with AWX, and to build a Django web interface to display and 
 interact with dnsdiag. 
