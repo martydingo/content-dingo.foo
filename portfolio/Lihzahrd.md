@@ -4,8 +4,6 @@ description: " A Terraria world parser Python library I've implemented support f
 repo: https://github.com/martydingo/lihzahrd
 draft: false
 ---
-# ![](https://gamepedia.cursecdn.com/terraria_gamepedia/e/ee/Lihzahrd.png?version=b8e7ea78b2f9f27a46e2e70d5684b344) `lihzahrd` [![](https://img.shields.io/pypi/v/lihzahrd)](https://pypi.org/project/lihzahrd/)
-
 A Terraria 1.4.4.9 world parser in Python, forked from [Steffo99](https://github.com/Steffo99/lihzahrd), and the implementation of 1.4.4.x features merged from [StarryNightCat](https://github.com/StarryNightCat/lihzahrd). I have also incorporated optimisations and the addition of caching done by [rodjjo](https://github.com/Steffo99/lihzahrd/pull/6).
 
 This works on the current version of Terraria! Documentation on usage can be found [here](https://gh.steffo.eu/lihzahrd/html/index.html)
