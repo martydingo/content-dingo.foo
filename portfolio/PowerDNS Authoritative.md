@@ -6,10 +6,8 @@ description: "This is a release of a helm chart & a container for PowerDNS Autho
 category: "Container & Helm Chart"
 date: 2021-12-13
 repo: https://github.com/martydingo/docker_pdns-auth
-preview_image: ./images/powerdns.jpg
+preview_image: ./images/powerdns_2.jpg
 ---
-
-# PowerDNS Authoritative
 
 ## Description
 

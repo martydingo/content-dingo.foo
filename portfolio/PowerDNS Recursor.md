@@ -9,8 +9,6 @@ repo: https://github.com/martydingo/docker-pdns_recursor
 preview_image: ./images/powerdns.jpg
 ---
 
-# PowerDNS Recursor
-
 ## Description
 This is a image that builds an Alpine Linux container, and installs pdns-recursor into that container. This image tries to avoid the need to have a ready-made recursor.conf to start the container, as to out-of-the-box functionaility, all while providing the same level of customisation that including your own recursor.conf can bring.
 

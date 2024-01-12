@@ -22,6 +22,8 @@ const portfolioCollection = defineCollection({
   schema: ({ image }: any) => z.object({
     draft: z.boolean(),
     title: z.string(),
+    category: z.string().optional(),
+    date: z.date().nullable().optional(),
     // author: z.object({
     //   name: z.string(),
     //   avatar: z.string(),
