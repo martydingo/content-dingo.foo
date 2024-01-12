@@ -1,7 +1,7 @@
 ---
 title: DNS Diagnostical Automata
-description: Ansible for automated DNS diagnostics using DNSDiag. It is designed to be used by network operators and DNS engineers to test & measure the health of their DNS & Network infrastructure running Anycast.
 draft: false
+description: Ansible for automated DNS diagnostics using DNSDiag. It is designed to be used by network operators and DNS engineers to test & measure the health of their DNS & Network infrastructure running Anycast.
 repo: https://github.com/martydingo/dnsdiag-automata
 preview_image: ./images/dns_diag_automata.jpg
 ---
@@ -34,7 +34,7 @@ interact with dnsdiag.
 
 ## Usage
 
-1. Clone this repository
+1. Clone this repo
 2. Configure the file located at `inventory/group_vars/all/vultr.yml`:
 
 ```yaml

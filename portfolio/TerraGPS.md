@@ -1,7 +1,7 @@
 ---
 title: TerraGPS
-description: A simple class to get the position of a player in Terraria via the Terraria API and paint it onto the world image, by polling the API of a tShock-enabled Terraria server and painting onto a pre-generated world image (such as one created by TerraMapper).
 draft: false
+description: A simple class to get the position of a player in Terraria via the Terraria API and paint it onto the world image, by polling the API of a tShock-enabled Terraria server and painting onto a pre-generated world image (such as one created by TerraMapper).
 repo: https://github.com/martydingo/terragps
 preview_image: ./images/terragps.jpg
 ---

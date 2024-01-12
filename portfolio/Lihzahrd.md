@@ -1,8 +1,8 @@
 ---
 title: Lihzahrd
+draft: false
 description: " A Terraria world parser Python library I've implemented support for Terraria 1.4.4.9."
 repo: https://github.com/martydingo/lihzahrd
-draft: false
 preview_image: ./images/lihzahrd.jpg
 ---
 A Terraria 1.4.4.9 world parser in Python, forked from [Steffo99](https://github.com/Steffo99/lihzahrd), and the implementation of 1.4.4.x features merged from [StarryNightCat](https://github.com/StarryNightCat/lihzahrd). I have also incorporated optimisations and the addition of caching done by [rodjjo](https://github.com/Steffo99/lihzahrd/pull/6).

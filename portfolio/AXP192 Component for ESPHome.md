@@ -1,7 +1,7 @@
 ---
 title: AXP192 Component for ESPHome
-description: An ESPHome custom component for the AXP192 power controller, supporting M5Stick-C, M5Tough and the M5Stack Core2 boards.
 draft: false
+description: An ESPHome custom component for the AXP192 power controller, supporting M5Stick-C, M5Tough and the M5Stack Core2 boards.
 preview_image: ./images/axp192.jpg
 repo: https://github.com/martydingo/esphome-axp192
 ---
@@ -13,7 +13,7 @@ This custom component it to implement support for the AXP192 for both the M5Stic
 
 ## Installation
 
-Copy the components to a custom_components directory next to your .yaml configuration file, or include directly from this repository.
+Copy the components to a custom_components directory next to your .yaml configuration file, or include directly from this repo.
 
 ## Configuration
 
