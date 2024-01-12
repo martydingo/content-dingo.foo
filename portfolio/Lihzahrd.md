@@ -2,6 +2,7 @@
 title: Lihzahrd
 description: " A Terraria world parser Python library I've implemented support for Terraria 1.4.4.9."
 repo: https://github.com/martydingo/lihzahrd
+draft: false
 ---
 # ![](https://gamepedia.cursecdn.com/terraria_gamepedia/e/ee/Lihzahrd.png?version=b8e7ea78b2f9f27a46e2e70d5684b344) `lihzahrd` [![](https://img.shields.io/pypi/v/lihzahrd)](https://pypi.org/project/lihzahrd/)
 
