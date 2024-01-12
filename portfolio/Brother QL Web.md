@@ -8,14 +8,26 @@ preview_image: ./images/brother_ql_web.jpg
 
 ## brother\_ql\_web
 
+updated fork from hackathi/brother_ql_web, which 
+- adds a dockerfile
+- adds API capabilities to the original project
+- fixes some bugs
+  - little things like such, 
+  ```diff
+  -    'duedate': d.get('duedate', None)
+  +   'due_date': d.get('due_date', None)
+  ```
+
+---
+
 This is a web service to print labels on Brother QL label printers.
 
 You need Python 3 for this software to work.
 
-![Screenshot](./static/images/screenshots/Label-Designer_Desktop.png)
+![Screenshot](./images/Label-Designer_Desktop.png)
 
 The web interface is [responsive](https://en.wikipedia.org/wiki/Responsive_web_design).
-There's also a screenshot showing [how it looks on a smartphone](./static/images/screenshots/Label-Designer_Phone.png)
+There's also a screenshot showing [how it looks on a smartphone](./images/Label-Designer_Phone.png)
 
 ### Installation
 
